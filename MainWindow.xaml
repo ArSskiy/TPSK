@@ -1,0 +1,48 @@
+﻿<Window x:Class="TPSK.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TPSK"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="301*"/>
+            <ColumnDefinition Width="1619*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="38*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/Images/shevron.jpg" />
+        <TextBlock Grid.Column="1" Background="#FF02C982"/>
+        <TextBlock Grid.Column="1" Background="#FF02C982" Text="ТПСК им.В.М. Максимчука" FontSize="120" 
+                   VerticalAlignment="Center" FontWeight="Bold"/>
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="264*"/>
+                <ColumnDefinition Width="1090*"/>
+                <ColumnDefinition Width="265*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="59*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="94*"/>
+                <RowDefinition Height="103*"/>
+                <RowDefinition Height="131*"/>
+                <RowDefinition Height="89*"/>
+                <RowDefinition Height="26*"/>
+                <RowDefinition Height="89*"/>
+                <RowDefinition Height="95*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Column="1" Grid.Row="1" Text="Тесты по дисциплине" VerticalAlignment="Center"
+                       HorizontalAlignment="Center" FontSize="70" FontWeight="Bold" Height="93" Width="740"/>
+            <TextBlock Grid.Column="1" Grid.Row="3" Text="Экономика отрасли" VerticalAlignment="Center"
+                       HorizontalAlignment="Center" FontSize="70" FontWeight="Bold" Height="93" Width="678"/>
+            <Button Grid.Row="5" Grid.Column="1" Width="700" Name="PrepodBtn" Content="Преподаватель" FontSize="50" Click="PrepodBtn_Click"/>
+            <Button Grid.Row="7" Grid.Column="1" Width="700" Name="StudentBtn" Content="Студент" FontSize="50" Click="StudentBtn_Click"/>
+        </Grid>
+    </Grid>
+
+</Window>
