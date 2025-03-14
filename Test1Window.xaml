@@ -79,6 +79,127 @@
                         </StackPanel>
                     </TabItem.Content>
                 </TabItem>
+
+                <TabItem x:Name="v4">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="3" FontSize="36">4</TextBlock>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <TabItem.Content>
+                        <StackPanel Margin="15">
+                            <TextBlock Margin="10" HorizontalAlignment="Left" Text="К основным направлениям научно-технического прогресса в промышленности относятся:" FontSize="48"/>
+                            <RadioButton x:Name="RB14" Margin="10" HorizontalAlignment="Left" Content="электрификация промышленности;" FontSize="40"/>
+                            <RadioButton x:Name="RB24" Margin="10" HorizontalAlignment="Left" Content="комплексная механизация, автоматизация и компьютеризация промышленности;" FontSize="40"/>
+                            <RadioButton x:Name="RB34" Margin="10" HorizontalAlignment="Left" Content="специализация промышленности;" FontSize="40"/>
+                            <RadioButton x:Name="RB44" Margin="10" HorizontalAlignment="Left" Content="химизация промышленности." FontSize="40"/>
+
+                            <Button x:Name="p4" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="200" Height="60" FontSize="40" Click="p4_Click"/>
+                        </StackPanel>
+                    </TabItem.Content>
+                </TabItem>
+
+                <TabItem x:Name="v5">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="3" FontSize="36">5</TextBlock>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <TabItem.Content>
+                        <StackPanel Margin="15">
+                            <TextBlock Margin="10" HorizontalAlignment="Left" Text="Какой тип производства является наиболее эффективным с точки зрения минимизации издержек производства?" FontSize="48"/>
+                            <RadioButton x:Name="RB15" Margin="10" HorizontalAlignment="Left" Content="индивидуальное производство;" FontSize="40"/>
+                            <RadioButton x:Name="RB25" Margin="10" HorizontalAlignment="Left" Content="мелкосерийное производство;" FontSize="40"/>
+                            <RadioButton x:Name="RB35" Margin="10" HorizontalAlignment="Left" Content="массовое производство;" FontSize="40"/>
+                            <RadioButton x:Name="RB45" Margin="10" HorizontalAlignment="Left" Content="непрерывное производство." FontSize="40"/>
+
+                            <Button x:Name="p5" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="200" Height="60" FontSize="40" Click="p5_Click"/>
+                        </StackPanel>
+                    </TabItem.Content>
+                </TabItem>
+
+                <TabItem x:Name="v6">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="3" FontSize="36">6</TextBlock>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <TabItem.Content>
+                        <StackPanel Margin="15">
+                            <TextBlock Margin="10" HorizontalAlignment="Left" Text="Серийному производству свойственны:" FontSize="48"/>
+                            <RadioButton x:Name="RB16" Margin="10" HorizontalAlignment="Left" Content="широкое использование универсального оборудования;" FontSize="40"/>
+                            <RadioButton x:Name="RB26" Margin="10" HorizontalAlignment="Left" Content="организация рабочих мест по технологической специализации;" FontSize="40"/>
+                            <RadioButton x:Name="RB36" Margin="10" HorizontalAlignment="Left" Content="типизация технологических процессов и оснастки;" FontSize="40"/>
+                            <RadioButton x:Name="RB46" Margin="10" HorizontalAlignment="Left" Content="1-3." FontSize="40"/>
+
+                            <Button x:Name="p6" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="200" Height="60" FontSize="40" Click="p6_Click"/>
+                        </StackPanel>
+                    </TabItem.Content>
+                </TabItem>
+
+                <TabItem x:Name="v7">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="3" FontSize="36">7</TextBlock>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <TabItem.Content>
+                        <StackPanel Margin="15">
+                            <TextBlock Margin="10" HorizontalAlignment="Left" Text="Единичному производству свойственны:" FontSize="48"/>
+                            <RadioButton x:Name="RB17" Margin="10" HorizontalAlignment="Left" Content="преимущественная численность рабочих высокой квалификации;" FontSize="40"/>
+                            <RadioButton x:Name="RB27" Margin="10" HorizontalAlignment="Left" Content="использование универсального оборудования;" FontSize="40"/>
+                            <RadioButton x:Name="RB37" Margin="10" HorizontalAlignment="Left" Content="непрерывная дистанционная диспетчеризация производства;" FontSize="40"/>
+                            <RadioButton x:Name="RB47" Margin="10" HorizontalAlignment="Left" Content="1-3." FontSize="40"/>
+
+                            <Button x:Name="p7" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="200" Height="60" FontSize="40" Click="p7_Click"/>
+                        </StackPanel>
+                    </TabItem.Content>
+                </TabItem>
+
+                <TabItem x:Name="v8">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="3" FontSize="36">8</TextBlock>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <TabItem.Content>
+                        <StackPanel Margin="15">
+                            <TextBlock Margin="10" HorizontalAlignment="Left" Text="Единичному производству свойственны:" FontSize="48"/>
+                            <RadioButton x:Name="RB18" Margin="10" HorizontalAlignment="Left" Content="преимущественная численность рабочих высокой квалификации;" FontSize="40"/>
+                            <RadioButton x:Name="RB28" Margin="10" HorizontalAlignment="Left" Content="использование универсального оборудования;" FontSize="40"/>
+                            <RadioButton x:Name="RB38" Margin="10" HorizontalAlignment="Left" Content="непрерывная дистанционная диспетчеризация производства;" FontSize="40"/>
+                            <RadioButton x:Name="RB48" Margin="10" HorizontalAlignment="Left" Content="1-3." FontSize="40"/>
+
+                            <Button x:Name="p8" Content="Принять" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Width="200" Height="60" FontSize="40" Click="p8_Click"/>
+                        </StackPanel>
+                    </TabItem.Content>
+                </TabItem>
+
+
+                <TabItem x:Name="v22">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="3" FontSize="36">Результат</TextBlock>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <TabItem.Content>
+                        <StackPanel Margin="15">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Margin="10" HorizontalAlignment="Left" Text="Правильных ответов" FontSize="40"/>
+                                <TextBlock x:Name="TextBlock100" Margin="10" HorizontalAlignment="Left" Text="" FontSize="40" Width="200"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Margin="10" HorizontalAlignment="Left" Text="Ваша оценка              " FontSize="40"/>
+                                <TextBlock x:Name="TextBlock101" Margin="10" HorizontalAlignment="Left" Text="" FontSize="40" Width="200"/>
+                               
+                            </StackPanel>
+                            <Separator Height="20" Opacity="0"/>
+                            <Button x:Name="p0" Content="Показать результат" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="52" Click="p0_Click"/>
+                            <Separator Height="20" Opacity="0"/>
+                            <Button x:Name="p00" Content="Ok" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="52" Click="p00_Click"/>
+                        </StackPanel>
+                    </TabItem.Content>
+                </TabItem>
             </TabControl>
         </Grid>
     </Grid>
